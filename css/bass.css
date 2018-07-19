@@ -1,0 +1,27 @@
+s/*
+* @Author: Sing-V
+* @Date:   2018-07-09 09:30:12
+* @Last Modified by:   Sing-V
+* @Last Modified time: 2018-07-11 18:16:12
+*/
+
+
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   /*清除列表样式*/  
+}
+a{
+   text-decoration: none;
+   /*清楚a链接下划线*/
+}
+img{
+	display: block
+}
+body{
+	background-color: #fff; 
+	font-family: 微软雅黑;
+}
+
+
