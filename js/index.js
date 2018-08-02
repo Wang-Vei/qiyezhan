@@ -12,6 +12,7 @@ window.onload=function () {
 	zhi.onmouseenter=function(){
 		pull1.style.height="400px";
 		pull1.style.border="1px solid #ccc"
+		pull1.style.borderTop=0;
 	}
 	zhi.onmouseleave=function(){
 		pull1.style.height="0";
