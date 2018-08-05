@@ -86,6 +86,7 @@ header{
 	padding-left: 20px;
 	box-sizing: border-box;
 }
+
 .qian{
     width: 70px;
     height: 85px;
@@ -112,8 +113,8 @@ header{
     width: 100%;
     height: 193px;
     position: relative;
-    background: url('../img/07.jpg') no-repeat ;
-    background-color: rgba(0,0,0,0.4);
+    background: url('../img/b2.jpg') no-repeat ;
+    opacity: 0.8;
     overflow: hidden;
     background-size: 100% 450px;
     background-position: 0 -150px;
@@ -127,7 +128,7 @@ header{
     right: 0;
     top: 50px;
     line-height: 39px;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'SimSuncss';
@@ -146,7 +147,6 @@ header{
 .middle{
     width:100%;
     height: 129px;
-    border-bottom: 1px solid #b9b9b9;
 }
 .middle-con{
     width: 1200px;
@@ -170,104 +170,49 @@ header{
     color: #b9b9b9;
     font-size: 14px;
 }
-.low{
-    width: 100%;
-    height: 575px;
+.content{
+    width: 1200px;
+    height: 1060px;
+    margin: 0 auto;
+
 }
-.add{
+
+
+.items{
+    display: block;
+    width: 387px;
+    height: 322px;
+    margin: 15px 4px 4px;
+    box-sizing: border-box;
+    float: left;
+    transition: all 0.5s;
+}
+img{
+    transition: all 0.5s;
+}
+.items .pic{
+    overflow: hidden;
+}
+
+.items:hover img{
+    transform: scale(1.1);
+}
+
+
+a>span{
+    display: block;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    height: 27px;
+    margin: 13px 0 5px 0;
+}
+.fenge{
     width: 1200px;
     height: 78px;
     margin: 0 auto;
 }
-.low-con{
-    width: 1200px;
-    height: 426px;
-    margin: 0 auto;
-}
-.low-con-left{
-    width: 583px;
-    height: 426px;
-    float: left;
-
-}
-.write{
-    width: 104px;
-    height: 30px;
-    padding-bottom: 30px;
-    border-bottom: 2px solid black;
-
-}
-.con-turn{
-    width: 583px;
-    height: 55px;
-    position: relative;
-}
-.turn-1{
-     width: 30px;
-     height: 30px;
-     position: absolute;
-     right: 40px;
-     bottom: 0;
-     cursor: pointer;
-     line-height: 30px;
-     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNyA0NCc+PHBhdGggZD0nTTAsMjJMMjIsMGwyLjEsMi4xTDQuMiwyMmwxOS45LDE5LjlMMjIsNDRMMCwyMkwwLDIyTDAsMjJ6JyBmaWxsPScjZmZmZmZmJy8+PC9zdmc+") no-repeat #666666;
-    background-size: 10px;
-    background-position:10px 7px;
- }
-.turn-2{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 0px;
-    bottom: 0;
-    cursor: pointer;
-    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNyA0NCc+PHBhdGggZD0nTTI3LDIyTDI3LDIyTDUsNDRsLTIuMS0yLjFMMjIuOCwyMkwyLjksMi4xTDUsMEwyNywyMkwyNywyMnonIGZpbGw9JyNmZmZmZmYnLz48L3N2Zz4=") no-repeat #666666;;
-    background-size: 10px;
-    background-position:10px 7px;
-}
-.turn-1:hover, .turn-2:hover{
-    background-color: #A9A9A9;
-}
-.left-down{
-    width: 583px;
-    height: 203px;
-    padding: 12px 12px 12px 0;
-}
-.left-pic{
-    width: 209px;
-    height: 202px;
-    float: left;
-}
-.left-pic>img{
-    display: block;
-    padding: 69px ;
-}
-.left-case{
-    width: 355px;
-    height: 201px;
-    float: right;
-}
-.left-case>p{
-    font-size: 14px;
-    margin-top: 12px;
-    font-weight: 600;
-}
-.low-con-right{
-    width: 580px;
-    height: 227px;
-    float: right;
-}
-.zhanWei{
-    width: 100%;
-    height: 55px;
-}
-.low-con-right>p{
-    margin-top: 30px;
-    color: #b9b9b9;
-}
-
-
-
 
 .down{
     width:100%;

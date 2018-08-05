@@ -53,6 +53,8 @@ header{
 	position: relative;
 	margin: 19px 0 0 18px;
 }
+
+
 .pull1{
 	width: 142px;
 	height: 0px;
@@ -61,9 +63,38 @@ header{
 	background:#fff ;
 	transition: all 0.5s;
 	top: 85px;
-	left: 89px;
+	left: 82px;
 	z-index: 30;
+	overflow: hidden;
+	box-sizing: border-box;
+	opacity: 0;
 }
+.pull2{
+	width: 142px;
+	height: 0px;
+	border-radius: 10px;
+	position: absolute;
+	background:#fff ;
+	transition: all 0.5s;
+	top: 85px;
+	left: 200px;
+	z-index: 30;
+	overflow: hidden;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.head li{
+	width: 100%;
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+	float: left;
+	color: #888;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+
 .qian{
 	width: 70px;
 	height: 85px;
