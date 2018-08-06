@@ -9,7 +9,14 @@ window.onload=function () {
 	let zhi=document.querySelector(".zhi");
 	let case1=document.querySelector(".case1")
 	let pull2=document.querySelector(".pull2")
-	console.log(pull1,zhi,case1,pull2);	
+	let ye=document.querySelector(".ye")
+	let prize=document.querySelector(".prize")
+	let turn1=document.querySelector(".prize .turn1")
+	let turn2=document.querySelector(".prize .turn2")
+	
+
+	
+	console.log(ye,prize,turn1,turn2);	
 
 	zhi.onmouseenter=function(){
 		pull1.style.height="400px";
@@ -34,6 +41,32 @@ window.onload=function () {
 		pull2.style.border="";
 		pull2.style.opacity=0;
 	}
+
+
+	let Width=parseInt(getComputedStyle(ye,null).width)/2;
+	console.log(Width)
+	let time=0
+    turn2.onclick=function () {
+		time++;
+		if(time>=1){
+			time=1;
+		}
+
+		ye.style.transform=`translateX(${-Width*time}px)`;
+
+	}
+	turn1.onclick=function () {
+        time--;
+        if(time<0){
+			time=0;
+        }
+
+        ye.style.transform=`translateX(${-Width*time}px)`;
+
+    }
+
+
+
 
 
 }

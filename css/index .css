@@ -226,8 +226,14 @@ h5{
 	border-bottom: 3px solid #444;
 	position: relative;
 	box-sizing: border-box;
+	overflow: hidden;
 }
-
+.ye{
+	width: 2400px;
+	height: 314px;
+	float: left;
+	transition: all 1s;
+}
 .turn1{
 	width: 27px;
 	height: 48px;
